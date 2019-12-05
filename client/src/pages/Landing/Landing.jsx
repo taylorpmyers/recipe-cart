@@ -21,9 +21,9 @@ class Landing extends Component {
                     </Col>
                     <Col id = "landingWords"style = {{marginTop: "40px"}}xs={6} sm = {6}>
                         <h3 id = "landingHeading">
-                            Automate Your Walmart Online Grocery Shopping!
+                            Generate grocery lists from your recipes!
                         </h3>
-                        <h5 id = "landingText" >Create recipes and add the ingredients to your grocery.walmart account!</h5>
+                        <h5 id = "landingText" >Create recipes using products you own. Recipe Cart will generate a grocery list with exactly how many products your recipes need. </h5>
                         <button style = {{marginRight: "15px"}}className = "myBtn" children="Demo" onClick = {this.demo}/>
                         <button className = "myBtn"  children="Sign Up/Login" onClick = {() => window.location.href = '/login'}/>
                     </Col>

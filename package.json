@@ -10,9 +10,7 @@
 		"bcrypt-nodejs": "^0.0.3",
 		"body-parser": "^1.18.3",
 		"express": "^4.16.4",
-		"mongoose": "^5.4.16",
-		"nightmare": "2.x",
-		"vo": "^4.0.2"
+		"mongoose": "^5.4.16"
 	},
 	"devDependencies": {
 		"cross-env": "5.x"
