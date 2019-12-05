@@ -89,7 +89,7 @@ class GroceryList extends Component {
             <Grid style={{ paddingTop: "60px" }}>
                 <Row style={{}}>
 
-                    <button className="myBtn" children="Load Walmart Cart" onClick={this.loadWalmartCart} />
+                    <button className="myBtn" children="Finish List" onClick={this.loadWalmartCart} />
 
                 </Row>
                 <Row>
