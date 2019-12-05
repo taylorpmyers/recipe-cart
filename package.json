@@ -1,0 +1,23 @@
+{
+	"scripts": {
+		"start": "node index.js",
+		"heroku-postbuild": "cd client && yarn install --only=dev && yarn install && yarn run build",
+		"dev": "cross-env NODE_ENV=development node index.js",
+		"deploy": "git push --force heroku master",
+		"postdeploy": "cd scripts && node seed.js"
+	},
+	"dependencies": {
+		"bcrypt-nodejs": "^0.0.3",
+		"body-parser": "^1.18.3",
+		"express": "^4.16.4",
+		"mongoose": "^5.4.16",
+		"nightmare": "2.x",
+		"vo": "^4.0.2"
+	},
+	"devDependencies": {
+		"cross-env": "5.x"
+	},
+	"engines": {
+		"node": "8.12.0"
+	}
+}

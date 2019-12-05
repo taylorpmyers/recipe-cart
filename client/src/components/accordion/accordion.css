@@ -1,0 +1,8 @@
+.panel-group .panel .panel-heading {
+    background: rgba(175, 213, 222, .95);
+}
+
+.panel-group .panel .panel-collapse .panel-body, .panel-group .panel{
+    background: none;
+    border: solid 1px lightgray;
+}

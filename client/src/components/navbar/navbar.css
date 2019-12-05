@@ -1,0 +1,74 @@
+
+ .navbar .container {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    border-radius: 0px;
+}
+.navbar {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    opacity: .7;
+    border: none;
+    position: fixed;
+    width: 100%;
+     z-index: 1;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #258FA7;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover
+{
+    color: #258FA7;
+    background-color: white;
+    text-decoration: none;
+}
+
+.navbar-default .navbar-nav>li>a>p:hover, .navbar-default .navbar-nav>.active>a>p:hover{
+    color: #258FA7;
+    margin-top: -2px;
+    margin-bottom: -2px;
+    border-bottom: 2px solid #258FA7;
+    border-top: 2px solid #258FA7;
+}
+
+.navbar-header {
+    float: left;
+}
+.navbar-brand {
+    padding: 0;
+    margin-left: 25%!important;
+    clear: both
+}
+.navbar-nav, .navbar-nav li {
+    float: right;
+    margin-right: 2px;
+}
+#brand{
+    color: white;
+    text-shadow: none;
+}
+
+.navbar-default .navbar-nav .active, .navbar-default .navbar-nav .active a{
+    background-color: white;
+    background-image: none;
+    box-shadow: none;
+    
+}
+
+.navbar-default .navbar-nav .active p {
+    border-bottom: 2px solid #258FA7;
+}
+
+#circle {
+    border-radius: 50%;
+    background-color: #258FA7;
+    padding: 4px 6px;
+    color: white;
+    height: 17px;
+    margin-left: 2px;
+}
